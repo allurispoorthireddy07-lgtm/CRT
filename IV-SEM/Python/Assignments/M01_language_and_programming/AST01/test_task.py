@@ -1,6 +1,7 @@
 import unittest
 from task import Ticket_Pricing
 
+
 class TestAssignment(unittest.TestCase):
 
     def test_single_digit(self):
@@ -11,6 +12,7 @@ class TestAssignment(unittest.TestCase):
 
     def test_with_zero(self):
         self.assertEqual(Ticket_Pricing(70), 15)
+
 
 if __name__ == "__main__":
     unittest.main()
