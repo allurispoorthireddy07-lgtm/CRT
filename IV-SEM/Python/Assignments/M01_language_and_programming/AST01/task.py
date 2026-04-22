@@ -28,5 +28,5 @@ def Ticket_Pricing(n: int) -> int:
     else:
         return 15
 if __name__ == "__main__":
-      age = int(input())
-      print(Ticket_Pricing(age))
+    age = int(input())
+    print(Ticket_Pricing(age))
